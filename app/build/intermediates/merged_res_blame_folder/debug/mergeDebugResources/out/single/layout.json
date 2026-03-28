@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\activity_elder_main.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\activity_elder_main.xml"
+    },
+    {
+        "merged": "com.carelink.app-mergeDebugResources-52:/layout/activity_map_preview.xml",
+        "source": "com.carelink.app-main-55:/layout/activity_map_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\activity_family_main.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\activity_family_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_today_task.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_today_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_family_contact.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_family_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_elder_home.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_elder_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\dialog_add_note.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\dialog_add_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\activity_appointment_edit.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\activity_appointment_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\item_alert_card.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\item_alert_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_notes.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\item_note_card.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\item_note_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_shift.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_shift.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\activity_role_select.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\activity_role_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\item_task_card.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\item_task_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_emergency.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_emergency.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_member.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\dialog_update.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\dialog_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_alert_center.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_alert_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_schedule.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_calendar.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-mergeDebugResources-52:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.13\\com.carelink.app-main-55:\\layout\\fragment_dashboard.xml"
+    }
+]

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF4081</color>
+    <color name="alert_level_important">#FF9800</color>
+    <color name="alert_level_normal">#4CAF50</color>
+    <color name="alert_level_urgent">#F44336</color>
+    <color name="bg_elder">#F5F9FF</color>
+    <color name="bg_family">#FAFAFA</color>
+    <color name="black">#000000</color>
+    <color name="emergency_red">#F44336</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="green">#4CAF50</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <item name="elder_bottom_nav" type="id"/>
+    <item name="elder_content_container" type="id"/>
+    <item name="family_bottom_nav" type="id"/>
+    <item name="family_content_container" type="id"/>
+    <string name="alert_center">异常中心</string>
+    <string name="alert_no_pending">暂无待处理异常</string>
+    <string name="app_name">关爱通</string>
+    <string name="checkin_bp">血压</string>
+    <string name="checkin_bs">血糖</string>
+    <string name="checkin_medicine">服药</string>
+    <string name="checkin_sleep">睡眠</string>
+    <string name="checkin_walk">散步</string>
+    <string name="checkin_water">喝水</string>
+    <string name="code_hint">请输入验证码</string>
+    <string name="elder_checkin">打卡</string>
+    <string name="elder_contact">家属</string>
+    <string name="elder_emergency">紧急</string>
+    <string name="elder_home">首页</string>
+    <string name="elder_schedule">日程</string>
+    <string name="elder_settings">设置</string>
+    <string name="emergency_feel_bad">感觉不舒服</string>
+    <string name="emergency_sos">SOS</string>
+    <string name="family_alert">异常</string>
+    <string name="family_calendar">日历</string>
+    <string name="family_dashboard">总览</string>
+    <string name="family_member">成员</string>
+    <string name="family_notes">备注</string>
+    <string name="family_settings">设置</string>
+    <string name="family_shift">轮值</string>
+    <string name="login">登录</string>
+    <string name="logout">退出登录</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="role_elder">我是老人</string>
+    <string name="role_family">我是家属</string>
+    <string name="select_role">请选择您的身份</string>
+    <string name="send_code">发送验证码</string>
+    <string name="settings_font">字体大小</string>
+    <string name="settings_voice">语音播报</string>
+    <style name="Theme.CareLinkApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>

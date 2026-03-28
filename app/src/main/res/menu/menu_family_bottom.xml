@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_home"
+        android:title="总览" />
+    <item
+        android:id="@+id/nav_alert"
+        android:icon="@drawable/ic_alert"
+        android:title="异常" />
+    <item
+        android:id="@+id/nav_calendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="日历" />
+    <item
+        android:id="@+id/nav_notes"
+        android:icon="@drawable/ic_notes"
+        android:title="备注" />
+    <item
+        android:id="@+id/nav_my"
+        android:icon="@drawable/ic_my"
+        android:title="我的" />
+</menu>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:name=".CareLinkApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareLinkApp">
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="17940927b676dc67f6d8198bd2571939" />
+
+        <!-- 登录 -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 身份选择 -->
+        <activity
+            android:name=".ui.auth.RoleSelectActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- 老人主界面 -->
+        <activity
+            android:name=".ui.elder.ElderMainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- 家属主界面 -->
+        <activity
+            android:name=".ui.family.FamilyMainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- 地图测试页 -->
+        <activity
+            android:name=".ui.map.MapPreviewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- 复诊预约编辑 -->
+        <activity
+            android:name=".ui.calendar.AppointmentEditActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- 设置页 -->
+        <activity
+            android:name=".ui.settings.SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- 万年历 -->
+        <activity
+            android:name=".ui.calendar.PerpetualCalendarActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- 开机广播 -->
+        <receiver
+            android:name=".receiver.BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 提醒广播 -->
+        <receiver
+            android:name=".receiver.ReminderReceiver"
+            android:exported="false" />
+
+        <!-- FileProvider 用于应用更新安装 -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>
